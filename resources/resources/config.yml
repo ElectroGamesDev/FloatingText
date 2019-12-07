@@ -1,0 +1,12 @@
+# FloatingText plugin for PocketMine-MP
+# Author: TheNewManu
+
+# Amount of time in seconds to refresh the FloatingTexts
+update-time: 1
+
+# List of ConfigTexts. Example:
+# "TextName": "text"
+# Tags: {line}, {player_name}, {player_health}, {player_max_health}, {online_players}, {online_max_players}
+texts:
+  "Text1": "Hello {player_name}"
+  "Text2": "Your health: {player_health}"
